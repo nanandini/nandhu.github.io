@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Register Form</title>
+    </head>
+
+<body>
+    <form>
+        
+     <div>
+        <label>Enter First Name</label>
+        <input type="text" name="First Name"
+        placeholder="Enter First Name" required minLength="4"maxlength="9" autocomplete="off"> 
+     </div>
+      <br>                  
+                       <!---------------used for break-----<br>------------->
+
+     <div>
+        <label>Enter Last Name</label>
+        <input type="text" name="first name" autocomplete="off">
+     </div>
+      <br>
+                   <!------------------creating an Email---------------------->
+     <div>
+        <label>Enter Email.ID</label>
+        <input type="email"name="second name" autocomplete="off">
+    </div>
+     <br>
+     <div>
+        <label>Enter Passward</label>
+        <input type="password" name="password"autocomplete="off">
+     </div>
+<br>
+     <div>
+        <label>Select Gender</label>
+                     <!---radio button wll be used for select any one option-->
+        <input type="radio"name="gender">Male
+        <input type="radio"name="gender">Female
+        <input type="radio"name="gender"checked>Other
+     </div>
+     <br>
+     <div>
+        <label>Select Course</label>
+        <input type="CheckBox">Java
+        <input type="CheckBox" disabled>Python
+        <input type="CheckBox">DotNet
+     </div>
+     <br>
+
+     
+
+     <div>
+        <label>Select City</label>
+        <Select>    
+            <option>Banglore</option>
+            <option>Chikkaballapur</option>
+            <option>Mysore</option>
+        </Select>
+     </div>
+     <br>
+ <!--DateOfBirth,MobileNumber,adress----(task)-->
+
+        <div>
+            <label>Select DateofBirth</label>
+            <input type="date" name="dateofBirth">
+        </div>
+<br>
+       <div>
+        <label>Enter Age</label>
+        <input type="number" name="Age" required min="18" max="25">
+       </div>
+       <br>
+        <div>
+            <label>Enter Mobile Number</label>
+            <input type="tel"name="Mobile Number"placeholder=" +91 9448958488">
+        </div>
+        <br>
+        <div> 
+            <label>Enter Addess</label>
+            <textarea rows ="5"cols="5"></textarea> 
+        </div>
+<br>
+                         <!------------------ creating naukri website------------------->
+        <div>
+            <label>Select File/Resume</label>
+            <input type="File" name="UploadFile">
+        </div>
+        <br>
+
+        <div>
+            <!------------------<input type="Submit" option--------------------------->
+            <Button type="Submit">Submit</Button>
+            <Button type="Reset">Reset</Button>
+        </div>
+        <br>
+    </form>
+</body>
+</html> 
+
+
+
+
+
+<!----html5 validation   how to check-->

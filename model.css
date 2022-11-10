@@ -1,0 +1,22 @@
+.box{
+    /*padding-bottom:30px;
+    padding-top:30px;
+    padding-left:30px;
+    padding-top:20px;*/ 
+    
+    padding:30px 30px 30px,40px;
+    border:6px dotted pink;
+    margin:20px;
+    background-color:rosybrown ;
+
+}
+
+.rect {
+
+    border:2px solid green;
+    height: 100px;
+    width:40px;
+
+
+     
+}

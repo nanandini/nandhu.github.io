@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="row">
+        <div class="col-lg-4 col-sm-3">
+            <img src="bird.jpg">
+        </div>
+        <br>
+        <div class="col-lg-4 col-sm-3">
+            <table class="table">
+                <thead>
+                  <th>Sl.no</th>
+                  <th>Juice</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                </thead>
+                <tr>
+                  <td>1</td>
+                  <td>Apple</td>
+                  <td>750</td>
+                  <td>40</td>
+                </tr>
+              </table>
+        </div>
+        <div class="col-lg-4 col-sm-3">
+            <form>    
+                <div>
+                   <label>Enter Name</label>
+                   <input type="text" name="Name"
+                   placeholder="Enter Name" required minLength="4"maxlength="9" autocomplete="off"> 
+                </div>
+                 <br>  
+                 <div>
+                    <label>Enter Email ID</label>
+                    <input type="email"name="second name" autocomplete="off">
+                </div>
+                 <br>
+                 <div>
+                    <label>Enter Passward</label>
+                    <input type="password" name="password"autocomplete="off">
+                 </div>
+                 <br>
+                 <div>
+                    <label>Select Gender</label>
+                    <input type="radio"name="gender">Male
+                    <input type="radio"name="gender">Female
+                    <input type="radio"name="gender">Other
+                 </div>
+                 <br>
+                 <div>
+                    <label>Select City</label>
+                    <Select>    
+                        <option>Banglore</option>
+                        <option>Chikkaballapur</option>
+                        <option>Mysore</option>
+                    </Select>
+                 </div>
+                 <br>
+                 <div>
+                    <label>Select DateofBirth</label>
+                    <input type="date" name="dateofBirth">
+                </div>
+                <div> 
+                    <label>Enter Addess</label>
+                    <textarea rows ="2"cols="5"></textarea> 
+                </div>
+              <br>
+              <div>
+                <Button type="Submit">Submit</Button>
+                <Button type="Reset">Reset</Button>
+            </div>
+            </form>
+      </div>
+</body>
+</html>

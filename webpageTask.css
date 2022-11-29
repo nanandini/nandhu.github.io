@@ -1,0 +1,19 @@
+li{
+    float:left;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 300px;
+    padding:0;
+    overflow: hidden;
+
+
+}
+li{
+    display:block;
+    color:pink;
+    text-align: center;
+    padding:14px 18px;
+    text-decoration:none ;
+    letter-spacing:3px ;

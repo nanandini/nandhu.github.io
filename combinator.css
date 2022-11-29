@@ -1,69 +1,138 @@
-<!doctype html>
-<html>
-    <head>
-	    <title> Combinators </title>
-		<link rel="stylesheet" href="combinator.css" >
-	</head>
-	<body>
-	    <div>
-		<p> git init
-            git add README.md </p>
-		<p>git commit -m "first commit"
-            git branch -M main </p>
-			<span>
-			    <p> kkjahLJE;LAinrncilecr;oewtmgjl </p>
-			</span>
-		</div>
-		<p> this is a paragraph </p>
-		<p> this is also a paragraph </p>
-		<div class= "static">
-		    Position property applying for static         
-		</div>
-		<div class= "relative">
-		    Position property applying for relative 
-		</div>
-		<div class="absolute" >
-		position property applying absolute
-		</div> 
-		<br>
-		<br>
-		<div class="imageparent">
-		<img class="circle" src="rcb.webp">
-		<span class="topleft"> Virat Kohli </span>
-		<span class="max">Glenn Maxwell </span>
-		<span class="siraj"> Mohammad Siraj </span>
-		<span class="faf"> Faf Du Plessis </span>
-		<span class="harsh"> Harshal Patel </span>
-		<span class="dinesh"> Dinesh Kartik </span>
-		<span class="anuj"> Anuj Rawat </span>
-		<span class="akash"> Akash Deep </span>
-		<span class="sid"> Siddarth Kaul </span>
-		</div>
-		<br>
-		<div class="fixed">
-			position property applying fixed
-		</div>
-		<br>
-		<div class="sticky"> I am Sticky!</div>
-		<div style="padding-bottom: 200px">
-		<p>
-			bdiuwecmoheiwybvnehckbnomw;iii;orbcuyncoitrj
-		</p>
-	    <p> iowuvp,oupvn wreycfgjvnhfkdljvbisy</p>
-		<p>uwgbcriyb o3irjfebhcghvfancmiouetbcnnechiy</p>
-		<p>kjxhbscroinyhhhhhhhgfuvbiasnvcueryiynt</p>
-		<p>kihaencistg fkhmfjghknlirnibyvkhubisakyvrt</p>
-		<p>jwubavrlyb2twinpdoisgv linufb  </p>
-		<p>unciweybrui ybunyivcniludbygfnub</p>
-		<p>bsnvcjbeycivxekfbqzxmek,vxgubjcvret</p>
-		<p>hnectgibullllryknnngcjbmejfvcusejdkbugjs</p>
-		</div>
-		<!--navigation bar-->
-		<ul>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>Java Script</li>
-		</ul>
-	</body>
-</html>
-<!--todays task :-> horizontal navigation bar backgroung color:red, text color-white-->
+/*Descendant selector*/
+div p {
+	color: red;
+}
+
+/* Child selector */
+div > p {
+	color: green;
+}
+
+/*Adjacent Sibling SElector */
+div + p {
+	color: blue;
+}
+
+/* General sibling selector */
+div ~ p {
+	color: rgb(10,20,50)
+}
+
+.static {
+	position: static;
+	top: 10px;
+	color: green;
+}
+
+.relative {
+	position: relative;
+	left: 200px;
+	top: -240px;
+	color: blue;
+}
+
+.absolute {
+	position: absolute;
+	left: 100px;
+	color: rgb(170, 10, 37)
+}
+
+.topleft {
+    font-size: 20px;
+	position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.imageparent {
+	position: relative;
+	color: red;
+}
+
+body {
+	margin: 0;
+}
+
+.circle {
+	border-radius: 10%;
+	height: 600px;
+	width: 800px;
+}
+.max {
+	font-size: 20px;
+	position: absolute;
+	left: 20px;
+	top: 270px;
+}
+.siraj {
+	font-size: 20px;
+	position: absolute;
+	left: 20px;
+	top: 550px;
+}
+.faf {
+	font-size: 20px;
+	position: absolute;
+	left: 330px;
+	top: 550px;
+}
+.harsh {
+	font-size: 20px;
+	position: absolute;
+	left: 330px;
+	top: 270px;
+	color: darkgray;
+}
+.dinesh {
+	font-size: 20px;
+	position: absolute;
+    top: 20px;
+    left: 330px;
+}
+.anuj {
+	font-size: 20px;
+	position: absolute;
+    top: 20px;
+    left: 680px;
+}
+.akash {
+	font-size: 20px;
+	position: absolute;
+    top: 270px;
+    left: 680px;
+}
+.sid {
+	font-size: 20px;
+	position: absolute;
+    top: 550px;
+    left: 67 0px;
+}
+.fixed {
+	position: fixed;
+	color: blueviolet;
+	top: 0;
+	right: 0;
+	background-color: cornsilk;
+}
+.sticky {
+	position: sticky;
+	top: 0;
+	background-color: darksalmon;
+}
+ul {
+	list-style-type: none;
+	color: deeppink;
+	background-color: darkturquoise;
+}
+li {
+	padding: 5px;
+}
+}
+/*
+color property
+1.RGB
+2.Hex
+3.Hsl
+*/
+
+/*Position*/
